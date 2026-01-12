@@ -1,1 +1,17 @@
-# check-whether-the-input-number-is-prime-or-not.
+number=int(input("enter any number:"))
+if number>1:
+    for i in range(2,number):
+        if(number%i)==0:
+            print(number,"is not a prime number")
+            break
+        else:
+            print(number,"is a prime number")
+    else:
+        print(number,"is not a prime number")
+output
+enter any number:35
+35 is a prime number
+35 is a prime number
+35 is a prime number
+35 is not a prime number
+
