@@ -1,0 +1,1 @@
+# check-whether-the-input-number-is-prime-or-not.
